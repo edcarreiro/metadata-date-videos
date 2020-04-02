@@ -18,13 +18,16 @@ This means that the ***datemov*** function only needs the file argument. In ***d
 
 # SYNOPSIS
 
-​	datemov <file.mov>
-
-​	datemp4 utcnumber <file.mp4>
+```
+datemov <file.mov>
+datemp4 utcnumber <file.mp4>
+```
 
 Example for **Eastern Time** (no daylight saving time):
 
-​	datemp4 5 moviefile.mp4	
+```
+datemp4 5 moviefile.mp4	
+```
 
 # PREREQUISITES
 
