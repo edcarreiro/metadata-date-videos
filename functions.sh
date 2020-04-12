@@ -25,6 +25,10 @@ function datemp4 {
   else
     h=$((h-delta))
   fi
+  if [ echo ${#d} == 1 ]
+  then 
+    d=$(printf '%02d' $d)
+  fi 
   echo "The new CREATED/MODIFIED DATE will be: (Y/M/D h:m:s)" $y-$m-$d $h:$mn:$s
   touch -t $y$m$d$h$mn.$s $2
 }
