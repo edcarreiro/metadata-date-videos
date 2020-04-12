@@ -25,7 +25,7 @@ function datemp4 {
   else
     h=$((h-delta))
   fi
-  if [ echo ${#d} == 1 ]
+  if [ ${#d} == 1 ]
   then 
     d=$(printf '%02d' $d)
   fi 
